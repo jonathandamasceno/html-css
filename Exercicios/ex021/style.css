@@ -1,0 +1,106 @@
+
+
+body{  
+   background-color: lightgray; 
+   margin: auto;
+   width: 600px;
+   height: 500px;
+}
+
+#menu{
+    background-color: #388697;
+    color: #0E131F;
+    padding: 10px;
+    height: 150px;
+    /*border-radius: 10px;*/
+    text-align: center;
+    
+}
+
+nav{
+    background-color: #0E131F;
+    border: solid #0E131F;
+    border-radius: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+nav > a:hover {
+text-decoration: underline;
+
+}
+
+.destaques {
+    margin: 5px;
+    padding-bottom: 2px;  
+    font-size: 25px;
+}
+
+#principal{
+    background-color: #388697;
+    color: #0E131F;
+    text-align: justify;
+    font-weight: 600;
+    /*height: 200px;*/
+    /*border-radius: 5px;*/
+
+}
+
+#principal h1{
+    margin: 5px;
+    text-align: center;
+}
+
+
+#principal article{
+    margin: 5px;
+}
+
+#principal article > aside {
+    background-color: #96b40fa8;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+article > aside{
+    height: 20px;
+}
+
+footer{
+    text-align: center;
+    color: #0E131F;
+    margin:auto;
+    padding: 10px;
+    background-color: #388697;
+    /*border-radius: 10px;*/
+}
+
+/*#second{
+    background-color: #0E131F;
+    color: white;
+    text-align: justify;
+    font-weight: 600;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#second h1{
+    margin: 5px;
+}
+
+#second article{
+    margin: 5px;
+}
+
+#second > article > aside {
+    background-color: #96b40fa8;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}*/
