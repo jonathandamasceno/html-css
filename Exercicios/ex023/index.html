@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>| Usando Tabelas |</title>
     <style>
+        body{
+            background-color: lightgray;
+        }
         h1{
             text-align: center;
             font-variant: small-caps;
         }
         table{
+            background-color: white;
             height: 400px;
             margin: auto;
             margin-top: 50px;
@@ -18,6 +22,8 @@
             border-collapse: collapse;
             width: 400px;
             position: absolute;
+
+            text-align: center;/*Alinhamento horizontal*/
 
             left: 50%;
             top: 40%;
@@ -28,15 +34,16 @@
         tr > td{
             padding: 10px; 
             border: 1px solid black;
+            vertical-align: super;/*Alinhamento vertical*/
         }
     </style>
 </head>
 <body>
     <h1>Criando Tabelas</h1>
-    <table>
-        <tr><!--Primeira linha-->
+    <table><!--Tabela-->
+        <tr><!--Table Row> <!--Primeira linha-->
             <td>A1</td>
-            <td>B1</td>
+            <td>B1</td><!--Table Data-->
             <td>C1</td>
             <td>D1</td>
         </tr>
