@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Document 2 para Tabelas |</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+            
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .position{
+            text-align: center;
+        }
+        .num{
+            text-align: right;
+        }
+
+        div{
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            border: 1px solid;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Tabelas Maiores</h1>
+    <!--
+        Fazendo tabelas grandes 
+
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TR, TH
+        TFOOT
+            TR, TR, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade Federativa</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="position">01</td>
+                <td>São Paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td class="position">02</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="position">03</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+
+            <tr>
+                <td class="position">04</td>
+                <td>Bahia</td>
+                <td class="num">14 136 417</td>
+            </tr>
+            <tr>
+                <td class="position">05</td>
+                <td>Paraná</td>
+                <td class="num">11 443 208</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="position">*</td>
+                <td>Total De habitantes</td>
+                <td class="num">000000000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div>
+        <h1>Tags usadas</h1>
+        <p>THEAD / TBODY / TFOOT / TR / TR / TH</p>
+        <h2>Além de CSS</h2>
+    </div>
+    
+</body>
+</html>
