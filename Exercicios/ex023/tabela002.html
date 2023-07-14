@@ -8,15 +8,12 @@
         table{
             border-collapse: collapse;
             width: 400px;
-            height: 400px;
-            
+            height: 400px; 
         }
-
         thead, tfoot{
             background-color: gray;
             color: white;
         }
-
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -26,18 +23,6 @@
         }
         .num{
             text-align: right;
-        }
-
-        div{
-            position: absolute;
-
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-
-            border: 1px solid;
-            padding: 20px;
-            text-align: center;
         }
     </style>
 </head>
@@ -56,9 +41,9 @@
     <table>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -88,21 +73,75 @@
                 <td>Paraná</td>
                 <td class="num">11 443 208</td>
             </tr>
-        </tbody>
+            <tr>
+                <td class="position">06</td>
+                <td>Rio Grande do Sul </td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td class="position">07</td>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td class="position">08</td>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <tr>
+                <td class="position">09</td>
+                <td>Pará</td>
+                <td class="num">8 116 132</td>
+            </tr>
+            <tr>
+                <td class="position">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td class="position">11</td>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td class="position">12</td>
+                <td>Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td class="position">13</td>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td class="position">14</td>
+                <td>Amazonas</td>
+                <td class="num">3 941 175</td>
+            </tr>
+            <tr>
+                <td class="position">15</td>
+                <td>Espírito Santo</td>
+                <td class="num">3 833 486</td>
+            </tr>
+            <tr>
+                <td class="position">16</td>
+                <td>Mato Grosso</td>
+                <td class="num">3 658 813</td>
+            </tr>
+            <tr>
+                <td class="position">17</td>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 406</td>
+            </tr>
+            </tbody>
         <tfoot>
             <tr>
                 <td class="position">*</td>
-                <td>Total De habitantes</td>
+                <td scope="row">Total De habitantes</td>
                 <td class="num">000000000</td>
             </tr>
         </tfoot>
     </table>
 
-    <div>
-        <h1>Tags usadas</h1>
-        <p>THEAD / TBODY / TFOOT / TR / TR / TH</p>
-        <h2>Além de CSS</h2>
-    </div>
-    
 </body>
 </html>
