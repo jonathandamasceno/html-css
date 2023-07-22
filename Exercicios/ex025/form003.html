@@ -8,20 +8,21 @@
 <body>
     <h1>Continuação do assunto sobre Formulários</h1>
     <form method="post" autocomplete="on">
-        <p><!--Nome ou textos-->
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
-        </p>
-
-        <p><!--Números em geral-->
-            <label for="iidade">Idade:</label>
-            <input type="number" name="idade" id="iidade" min="18" max="100" required>
-        </p>
-
-        <p><!--Datas completas: dia/mês/ano-->
-            <label for="idata">Data de Nascimento</label>
-            <input type="date" name="data" id="idata" required>
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><!--Nome ou textos-->
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+            </p>
+            <p><!--Números em geral-->
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade" min="18" max="100" required>
+            </p>
+            <p><!--Datas completas: dia/mês/ano-->
+                <label for="idata">Data de Nascimento</label>
+                <input type="date" name="data" id="idata" required>
+            </p>
+        </fieldset>
         <p><!--horas (não especifica segundos)-->
             <label for="ihora">Horário</label>
             <input type="time" name="hora" id="ihora" required>
